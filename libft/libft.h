@@ -6,7 +6,7 @@
 /*   By: dinis <dinis@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/21 22:33:36 by dinis             #+#    #+#             */
-/*   Updated: 2026/08/22 14:58:08 by dinis            ###   ########.fr       */
+/*   Updated: 2026/08/24 22:19:19 by dinis            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,5 +32,6 @@ int		ft_isprint(int character);
 size_t	ft_strlen(const char *str);
 void	*ft_memset(void *ptr, int value, size_t count);
 void	*ft_memcpy(void *dest, const void *src, size_t count);
+void	*ft_memmove(void *dst, const void *src, size_t len);
 
 #endif
