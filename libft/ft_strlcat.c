@@ -6,7 +6,7 @@
 /*   By: dinis <dinis@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/25 19:28:42 by dinis             #+#    #+#             */
-/*   Updated: 2026/08/25 19:44:19 by dinis            ###   ########.fr       */
+/*   Updated: 2026/08/25 19:48:39 by dinis            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,10 +36,10 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 	return (dst_len + src_len);
 }
 
-#include <stdio.h>
-int main ()
-{
-	char a[100] = "Hello";
-	size_t myfunct = ft_strlcat(a, "Mundo", 5);
-	printf("%zu\n", myfunct);
-}
+//#include <stdio.h>
+//int main ()
+//{
+//	char a[100] = "Hello";
+//	size_t myfunct = ft_strlcat(a, "Mundo", 5);
+//	printf("%zu\n", myfunct);
+//}
