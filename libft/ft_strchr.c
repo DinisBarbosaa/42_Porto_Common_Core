@@ -1,20 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_toupper.c                                       :+:      :+:    :+:   */
+/*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dinis <dinis@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/08/26 20:32:21 by dinis             #+#    #+#             */
-/*   Updated: 2026/08/26 21:46:18 by dinis            ###   ########.fr       */
+/*   Created: 2026/08/26 21:43:03 by dinis             #+#    #+#             */
+/*   Updated: 2026/08/26 21:54:36 by dinis            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_toupper(int character)
+char	*ft_strchr(const char *s, int c)
 {
-	if (character >= 'a' && character <= 'z')
-		character -= 32;
-	return (character);
+	int	i;
+
+	i = 0;
+	while (s[i])
+	{
+		if (s[i] == (char)c)
+		{
+			return ((char *)&s[i]);
+		}
+		i++;
+	}
+	if ((char)c == '\0')
+	{
+		return ((char *)&s[i]);
+	}
+	return (NULL);
 }

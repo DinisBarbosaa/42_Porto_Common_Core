@@ -1,20 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_toupper.c                                       :+:      :+:    :+:   */
+/*   ft_tolower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dinis <dinis@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/08/26 20:32:21 by dinis             #+#    #+#             */
-/*   Updated: 2026/08/26 21:46:18 by dinis            ###   ########.fr       */
+/*   Created: 2026/08/26 21:39:24 by dinis             #+#    #+#             */
+/*   Updated: 2026/08/26 21:46:22 by dinis            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_toupper(int character)
+int	ft_tolower(int character)
 {
-	if (character >= 'a' && character <= 'z')
-		character -= 32;
+	if (character >= 'A' && character <= 'Z')
+		character += 32;
 	return (character);
 }
