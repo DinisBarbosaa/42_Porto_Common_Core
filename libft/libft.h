@@ -6,7 +6,7 @@
 /*   By: dinis <dinis@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/21 22:33:36 by dinis             #+#    #+#             */
-/*   Updated: 2026/08/26 22:16:52 by dinis            ###   ########.fr       */
+/*   Updated: 2026/08/26 22:39:02 by dinis            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,20 +16,26 @@
 # include <stdlib.h>
 # include <string.h>
 
-int		ft_atoi(const char *str);
-void	ft_bzero(void *s, size_t n);
-int		ft_isalnum(int character);
 int		ft_isalpha(int character);
 int		ft_isdigit(int character);
+int		ft_isalnum(int character);
 int		ft_isascii(int character);
 int		ft_isprint(int character);
 size_t	ft_strlen(const char *str);
 void	*ft_memset(void *ptr, int value, size_t count);
+void	ft_bzero(void *s, size_t n);
 void	*ft_memcpy(void *dest, const void *src, size_t count);
 void	*ft_memmove(void *dst, const void *src, size_t len);
 size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize);
+size_t	ft_strlcat(char *dst, const char *src, size_t dstsize);
 int		ft_toupper(int character);
 int		ft_tolower(int character);
 int		ft_strchr(const char *s, char c);
+char	*ft_strrchr(const char *s, int c);
+int		ft_strncmp(const char *s1, const char *s2, size_t n);
+void	*ft_memchr(const void *s, int c, size_t n);
+int		ft_memcmp(const void *s1, const void *s2, size_t n);
+char	*ft_strnstr(const char *haystack, const char *needle, size_t len);
+int		ft_atoi(const char *str);
 
 #endif
