@@ -6,7 +6,7 @@
 /*   By: dinis <dinis@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/27 15:29:19 by dinis             #+#    #+#             */
-/*   Updated: 2026/08/27 15:41:42 by dinis            ###   ########.fr       */
+/*   Updated: 2026/08/27 15:44:34 by dinis            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,7 +48,6 @@ char	*ft_strdup(const char *source)
 //{
 //	char	*original = "Hello, 42!";
 //	char	*duplicate;
-
 //	duplicate = ft_strdup(original);
 //	printf("%s\n", original);
 //	printf( "%s\n", duplicate);
