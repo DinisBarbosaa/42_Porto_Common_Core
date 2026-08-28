@@ -6,7 +6,7 @@
 /*   By: dinis <dinis@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/27 15:45:01 by dinis             #+#    #+#             */
-/*   Updated: 2026/08/27 19:37:47 by dinis            ###   ########.fr       */
+/*   Updated: 2026/08/28 17:27:12 by dinis            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,3 +37,18 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	substr[i] = '\0';
 	return (substr);
 }
+
+//#include <stdio.h>
+////char	*ft_substr(char const *s, unsigned int start, size_t len)
+//int main ()
+//{
+//	char s2[] = "HELLOO";
+//	char *ola;
+//	ola = ft_substr(s2, 1, 5 );
+//	if (ola)
+//	{
+//		printf("Result: %s\n", ola);
+//        free(ola);
+//	}
+//	return (0);
+//}
