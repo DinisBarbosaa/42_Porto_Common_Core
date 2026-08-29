@@ -6,7 +6,7 @@
 /*   By: dinis <dinis@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/21 22:33:36 by dinis             #+#    #+#             */
-/*   Updated: 2026/08/27 19:35:16 by dinis            ###   ########.fr       */
+/*   Updated: 2026/08/29 22:47:04 by dinis            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,5 +40,7 @@ int		ft_atoi(const char *str);
 void	*ft_calloc(size_t nmemb, size_t size);
 char	*ft_strdup(const char *source);
 char	*ft_substr(char const *s, unsigned int start, size_t len);
+char	*ft_strjoin(char const *s1, char const *s2)
+char	*ft_strtrim(char const *s1, char const *set)
 
 #endif
