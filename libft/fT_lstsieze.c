@@ -1,20 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isprint.c                                       :+:      :+:    :+:   */
+/*   fT_lstsieze.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dinis <dinis@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/08/22 00:17:11 by dinis             #+#    #+#             */
-/*   Updated: 2026/09/08 11:51:18 by dinis            ###   ########.fr       */
+/*   Created: 2026/09/08 14:24:01 by dinis             #+#    #+#             */
+/*   Updated: 2026/09/08 14:24:03 by dinis            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isprint(int character)
+int	ft_lstsize(t_list *lst)
 {
-	if (character >= 32 && character <= 126)
-		return (1);
-	return (0);
+	int	count;
+
+	count = 0;
+	while (lst)
+	{
+		count++;
+		lst = lst->next;
+	}
+	return (count);
 }
