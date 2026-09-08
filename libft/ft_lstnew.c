@@ -6,13 +6,13 @@
 /*   By: dinis <dinis@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/03 00:07:26 by dinis             #+#    #+#             */
-/*   Updated: 2026/09/03 00:08:52 by dinis            ###   ########.fr       */
+/*   Updated: 2026/09/08 11:18:22 by dinis            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-t_list *ft_lstnew(void *content)
+t_list	*ft_lstnew(void *content)
 {
 	
 }
