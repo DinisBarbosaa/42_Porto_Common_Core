@@ -1,20 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   fT_lstsieze.c                                      :+:      :+:    :+:   */
+/*   ft_lstsize.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dinis <dinis@student.42.fr>                +#+  +:+       +#+        */
+/*   By: dinbarbo <dinbarbo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/08 14:24:01 by dinis             #+#    #+#             */
-/*   Updated: 2026/09/08 14:24:03 by dinis            ###   ########.fr       */
+/*   Updated: 2026/11/07 15:12:54 by dinbarbo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_lstsize(t_list *lst)
+unsigned int	ft_lstsize(t_list *lst)
 {
-	int	count;
+	unsigned int	count;
 
 	count = 0;
 	while (lst)

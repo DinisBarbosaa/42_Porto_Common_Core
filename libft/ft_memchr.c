@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dinis <dinis@student.42.fr>                +#+  +:+       +#+        */
+/*   By: dinbarbo <dinbarbo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/26 22:06:26 by dinis             #+#    #+#             */
-/*   Updated: 2026/08/26 22:17:22 by dinis            ###   ########.fr       */
+/*   Updated: 2026/11/07 16:44:59 by dinbarbo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,6 @@ void	*ft_memchr(const void *s, int c, size_t n)
 //{
 //	char	str[] = "Hello, world!";
 //	char	*result;
-
 //	result = ft_memchr(str, 'w', 13);
 //	if (result != NULL)
 //	{

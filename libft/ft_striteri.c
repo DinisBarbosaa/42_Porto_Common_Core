@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_striteri.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dinis <dinis@student.42.fr>                +#+  +:+       +#+        */
+/*   By: dinbarbo <dinbarbo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/01 19:40:31 by dinis             #+#    #+#             */
-/*   Updated: 2026/09/01 19:47:00 by dinis            ###   ########.fr       */
+/*   Updated: 2026/11/07 15:09:46 by dinbarbo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,11 +17,11 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 	unsigned int	i;
 
 	if (!s || !f)
-		return (NULLL);
+		return ;
 	i = 0;
 	while (s[i] != '\0')
 	{
-		f(i, &s[i])
+		f(i, &s[i]);
 		i++;
 	}
 }

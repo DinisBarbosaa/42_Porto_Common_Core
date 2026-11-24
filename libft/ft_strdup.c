@@ -3,24 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dinis <dinis@student.42.fr>                +#+  +:+       +#+        */
+/*   By: dinbarbo <dinbarbo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/27 15:29:19 by dinis             #+#    #+#             */
-/*   Updated: 2026/08/27 15:44:34 by dinis            ###   ########.fr       */
+/*   Updated: 2026/11/06 12:30:06 by dinbarbo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-size_t	ft_strlen(const char *str)
-{
-	size_t	len;
-
-	len = 0;
-	while (str[len] != '\0')
-		len++;
-	return (len);
-}
 
 char	*ft_strdup(const char *source)
 {
